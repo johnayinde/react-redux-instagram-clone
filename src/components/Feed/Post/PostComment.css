@@ -1,0 +1,22 @@
+.comment_container {
+	margin-top: 10px;
+	padding: 10px 20px;
+	border-top: 1px solid lightgray;
+}
+.comment_container > form {
+	display: flex;
+	align-items: center;
+}
+form > input {
+	display: flex;
+	border: none;
+	flex: 1;
+	margin-left: 15px;
+	font-size: 20px;
+	padding: 10px;
+	background: var(--instagram-background);
+}
+form > submit {
+	color: #9b9bd8;
+	margin-left: 15px;
+}

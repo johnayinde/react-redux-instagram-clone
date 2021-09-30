@@ -1,0 +1,17 @@
+.HeaderOption {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.header_icon {
+	object-fit: contain;
+	height: 25px !important;
+	width: 25px !important;
+	padding: 10px;
+}
+.header_icon:hover {
+	background: whitesmoke;
+	border-radius: 5px;
+}

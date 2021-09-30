@@ -1,0 +1,40 @@
+.account {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.account > p {
+	color: #5f5fbf;
+	font-weight: bold;
+	font-size: 14px;
+	/* margin-left: 15px; */
+}
+.account_detail {
+	display: flex;
+	align-items: center;
+}
+
+.account_detail {
+}
+.account_detail > p {
+	color: #9b9bd8;
+	/* margin-left: 15px; */
+}
+.account_name {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.account_name p {
+	margin-left: 10px;
+}
+.account_name p.username {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.account_name p.name {
+	font-size: 14px;
+	color: #aaa8a8;
+}

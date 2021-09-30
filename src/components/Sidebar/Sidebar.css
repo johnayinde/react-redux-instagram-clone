@@ -1,0 +1,40 @@
+.sidebar {
+	flex: 0.4;
+	padding: 0 20px;
+	margin-top: 110px;
+}
+
+.sidebar_suggest {
+	/* padding: 0 20px; */
+	margin-top: 20px;
+}
+.suggest_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.suggest_header p.title {
+	color: #aaa8a8;
+	font-weight: bold;
+}
+.suggest_header p.seeAll {
+	color: #aaa8a8;
+	font-weight: bold;
+	color: gray;
+}
+.suggest_body {
+	margin-top: 20px;
+}
+.links {
+	display: flex;
+	flex-wrap: wrap;
+}
+.links > span,
+.sidebar_footer > p {
+	padding-right: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #aaa8a8;
+}
+.sidebar_footer p {
+}

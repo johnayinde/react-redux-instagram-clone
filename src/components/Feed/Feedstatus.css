@@ -1,0 +1,15 @@
+.feedStatus {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	justify-content: space-around;
+}
+.feedStatus > p {
+	font-size: 13px;
+}
+.avatar {
+	object-fit: contain;
+	/* height: 25px !important;
+	width: 25px !important; */
+}

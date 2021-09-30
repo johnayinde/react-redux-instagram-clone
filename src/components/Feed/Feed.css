@@ -1,0 +1,13 @@
+.feed {
+	flex: 0.6;
+	/* margin-top: 20px; */
+}
+.feed_status {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 90px;
+	background: white;
+	border: 1px solid lightgray;
+	/* box-shadow: gray 20px; */
+}

@@ -1,0 +1,10 @@
+.post_optionContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+.option_Left {
+	display: flex;
+	align-items: center;
+}
