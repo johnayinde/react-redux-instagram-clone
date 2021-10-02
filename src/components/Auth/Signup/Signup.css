@@ -1,0 +1,20 @@
+.signup_header > p,
+.signup_footer > p {
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	color: #bfbbbb;
+}
+.facebook_icon {
+	margin-right: 5px;
+}
+
+.facebook_icon + p {
+	margin-top: 3px;
+}
+
+.signup_footer > p {
+	margin-top: 10px;
+	font-size: 15px;
+	line-height: 0.5cm;
+}

@@ -1,0 +1,24 @@
+.login_form {
+	display: flex;
+	flex-direction: column;
+}
+
+.divider {
+	margin-top: 10px;
+}
+
+.socialContainer,
+.socialContainer + p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.socialContainer p {
+	margin-left: 5px;
+	color: blue;
+}
+.socialContainer + p {
+	font-size: 15px;
+	color: blue;
+}

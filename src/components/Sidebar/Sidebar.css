@@ -5,7 +5,6 @@
 }
 
 .sidebar_suggest {
-	/* padding: 0 20px; */
 	margin-top: 20px;
 }
 .suggest_header {
@@ -35,6 +34,4 @@
 	font-size: 13px;
 	font-weight: bold;
 	color: #aaa8a8;
-}
-.sidebar_footer p {
 }

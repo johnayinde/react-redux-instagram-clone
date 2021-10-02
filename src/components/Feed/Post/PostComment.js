@@ -5,9 +5,13 @@ import "./PostComment.css";
 function PostComment() {
 	return (
 		<div className="comment_container">
-			<form>
+			<form className="comment_form">
 				<EmojiFlags />
-				<input type="text" placeholder="Add a comment..." />
+				<input
+					className="commentBox"
+					type="text"
+					placeholder="Add a comment..."
+				/>
 				<submit>Post</submit>
 			</form>
 		</div>

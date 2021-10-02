@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import logo from "../../logo.png";
 import {
 	CompassCalibrationOutlined,
 	FavoriteBorderOutlined,
@@ -9,6 +8,7 @@ import {
 	Search,
 } from "@material-ui/icons";
 import { HeaderOption } from "./HeaderOption";
+import { logo } from "../utils/images";
 
 export const Header = () => {
 	return (
@@ -20,7 +20,6 @@ export const Header = () => {
 				<div className="header_middle">
 					<div className="header_searchContainer">
 						<div className="search_icon">
-							{/* search icon */}
 							<Search />
 							<span>Search</span>
 						</div>

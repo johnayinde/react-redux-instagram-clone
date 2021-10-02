@@ -1,0 +1,11 @@
+.signLink {
+	display: flex;
+	justify-content: center;
+}
+
+.signLink > p {
+	margin-right: 5px;
+}
+.signLink p:last-child {
+	color: blue;
+}

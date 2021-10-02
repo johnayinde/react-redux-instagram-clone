@@ -39,7 +39,6 @@ function Post({ avatar, username, image, content }) {
 						<p>36 MINUTES AGO</p>
 					</div>
 				</div>
-				{/* <PostContent /> */}
 				<PostComment />
 			</div>
 		</div>

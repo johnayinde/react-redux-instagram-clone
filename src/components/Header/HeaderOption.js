@@ -1,7 +1,7 @@
 import { Avatar } from "@material-ui/core";
 import React from "react";
+import { logo2 } from "../utils/images";
 import "./HeaderOption.css";
-import logo2 from "../../logo2.png";
 
 export const HeaderOption = ({ Icon, avatar }) => {
 	return (

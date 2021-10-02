@@ -1,0 +1,46 @@
+.signup_signin_container {
+	display: flex;
+	width: 400px;
+	margin: 5% auto;
+	height: 100vh;
+	flex-direction: column;
+}
+.signup_signin_container_top,
+.signup_signin_container_bottom {
+	padding: 35px;
+	border: 1px solid lightgray;
+	background: white;
+}
+.signup_signin_container_top {
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+}
+.signup_signin_header {
+	margin-bottom: 20px;
+}
+
+.signup_signin_container_top > .signup_signin_header > img {
+	object-fit: contain;
+	width: 100%;
+	height: 70px;
+}
+
+.signup_signin_container_bottom {
+	padding: 20px; /* Override initial padding */
+}
+
+.mobile_app_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+.mobile_app_container > p {
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+.mobile_app_container > img {
+	object-fit: content;
+	width: 100%;
+}
