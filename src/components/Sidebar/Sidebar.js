@@ -1,11 +1,18 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import "./Sidebar.css";
 import UserAccountIcon from "./UserAccountIcon";
 
 function Sidebar() {
+	const user = useSelector((state) => state.user);
 	return (
 		<div className="sidebar">
-			<UserAccountIcon name="Ayiinde John" text="Switch" />
+			<UserAccountIcon
+				photo={user.photoURL}
+				subtitle={user.name}
+				username={user.username}
+				text="Switch"
+			/>
 			<div className="sidebar_suggest">
 				<div className="suggest_header">
 					<p className="title">Suggestions for you</p>
@@ -13,10 +20,10 @@ function Sidebar() {
 				</div>
 
 				<div className="suggest_body">
-					<UserAccountIcon name="Follow you" text="Follow" />
-					<UserAccountIcon name="Follow you" text="Follow" />
-					<UserAccountIcon name="Follow you" text="Follow" />
-					<UserAccountIcon name="Follow you" text="Follow" />
+					<UserAccountIcon subtitle="Follow you" username="abc" text="Follow" />
+					<UserAccountIcon subtitle="Follow you" username="abc" text="Follow" />
+					<UserAccountIcon subtitle="Follow you" username="abc" text="Follow" />
+					<UserAccountIcon subtitle="Follow you" username="abc" text="Follow" />
 				</div>
 			</div>
 			<div className="sidebar_footer">

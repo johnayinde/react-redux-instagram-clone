@@ -4,12 +4,16 @@ import PostOption from "../Post/PostOption";
 import PostComment from "../Post/PostComment";
 import "./Post.css";
 
+import { useSelector } from "react-redux";
+import { Avatar } from "@material-ui/core";
+
 function Post({ avatar, username, image, content }) {
+	const user = useSelector((state) => state.user);
 	return (
 		<div className="feed_post">
 			<div className="post_header">
 				<div className="post_header_left">
-					<img src={avatar} className="post_header_image" alt="" />
+					<Avatar className="post_header_image" src={avatar} />
 					{/* prop:avatar */}
 					<p>{username}</p>
 				</div>

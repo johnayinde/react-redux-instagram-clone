@@ -2,14 +2,14 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./UserAccountIcon.css";
 
-function UserAccountIcon({ text, name }) {
+function UserAccountIcon({ text, subtitle, username, photo }) {
 	return (
 		<div className="account">
 			<div className="account_detail">
-				<Avatar />
+				<Avatar src={photo} />
 				<div className="account_name">
-					<p className="username">ayindejo</p>
-					<p className="name">{name}</p>
+					<p className="username">{username}</p>
+					<p className="name">{subtitle}</p>
 				</div>
 			</div>
 			<p>{text}</p>

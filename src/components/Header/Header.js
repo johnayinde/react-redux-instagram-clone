@@ -9,8 +9,15 @@ import {
 } from "@material-ui/icons";
 import { HeaderOption } from "./HeaderOption";
 import { logo } from "../utils/images";
+import { useDispatch } from "react-redux";
+import { logoutUser } from "../../Redux/user/userAction";
 
 export const Header = () => {
+	const dispatch = useDispatch();
+
+	const logoutApp = () => {
+		dispatch(logoutUser());
+	};
 	return (
 		<div className="header">
 			<div className="headerContainer">
@@ -34,7 +41,7 @@ export const Header = () => {
 					<HeaderOption Icon={MessageOutlined} />
 					<HeaderOption Icon={CompassCalibrationOutlined} />
 					<HeaderOption Icon={FavoriteBorderOutlined} />
-					<HeaderOption avatar={true} />
+					<HeaderOption avatar={true} onclick={logoutApp} />
 				</div>
 			</div>
 		</div>

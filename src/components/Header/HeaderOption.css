@@ -4,7 +4,9 @@
 	cursor: pointer;
 	margin-right: 20px;
 }
-
+.avatar_icon {
+	object-fit: cover;
+}
 .header_icon {
 	object-fit: contain;
 	height: 25px !important;
