@@ -12,7 +12,9 @@ function SignupSigninContainer({ children, noAccountText }) {
 				</div>
 				{children}
 			</div>
+
 			<div className="signup_signin_container_bottom">
+				{/* <a href=""></a> */}
 				<NoAccount linkText={noAccountText} />
 			</div>
 			<div className="mobile_app_container">

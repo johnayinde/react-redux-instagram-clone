@@ -6,6 +6,6 @@
 .signLink > p {
 	margin-right: 5px;
 }
-.signLink p:last-child {
+.signLink p.link {
 	color: blue;
 }
