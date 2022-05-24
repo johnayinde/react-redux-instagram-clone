@@ -8,7 +8,6 @@ import { useSelector } from "react-redux";
 import { Avatar } from "@material-ui/core";
 
 function Post({ avatar, username, image, content }) {
-	const user = useSelector((state) => state.user);
 	return (
 		<div className="feed_post">
 			<div className="post_header">

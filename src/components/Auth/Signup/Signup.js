@@ -1,13 +1,10 @@
 import { Facebook } from "@material-ui/icons";
-import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import React from "react";
 
 import "./Signup.css";
 import SignButton from "../../utils/SignButton";
 import SignupSigninContainer from "../../utils/Signup_Signin_Container";
-import InputField from "./../../utils/InputField";
 import Divider from "./../../utils/Divider";
-import { registerUser } from "../../../Redux/user/userAction";
 import { LOGIN } from "../../utils/constants";
 import SignupFormik from "../../utils/SignupFormik";
 
